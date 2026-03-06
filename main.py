@@ -17,7 +17,7 @@ def sort_list(items, ascending=True):
 
     return sorted(items, reverse=(not ascending))
 
-
+#remove_duplicates_from_list
 def remove_duplicates_from_list(items):
     return list(set(items))
 
